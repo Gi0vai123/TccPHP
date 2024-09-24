@@ -1,0 +1,637 @@
+
+
+
+
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 400px;
+}
+
+.login{
+    
+    border-radius: 10%;
+    padding: 25px;
+    padding-top: 100px;
+    
+   
+    padding-bottom: 150px;
+    background-color: rgb(16, 26, 50);
+    
+}
+
+.login #user{
+    padding: 10px;
+    margin: 1px;
+    border-radius: 50px;
+    background-color: rgb(23, 29, 49);
+    text-align: center;
+    color: white;
+    
+    
+    
+}
+
+.login #user:hover{
+    background-color: rgb(15, 21, 40);
+    
+    
+}
+
+.login #senha{
+    padding: 10px;
+    margin: 1px;
+    border-radius: 50px;
+    background-color: rgb(23, 29, 49);
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.login #senha:hover{
+    background-color: rgb(15, 21, 40);
+    
+    
+}
+
+.login #confirmar{
+    padding: 20px;
+    border-radius: 50px;
+    margin: 1px;
+    margin-top: 10px;
+    background-color: rgb(22, 34, 73);
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.login #confirmar:active{
+
+    background-color: rgb(135, 135, 224);
+}
+
+.login a{
+    text-align: center;
+}
+
+
+#confirmar input{
+    background-color: blue;
+}
+
+.section-login{
+    display: flex;
+
+    height: 100%;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(22, 42, 90);
+}
+
+.login input::placeholder{
+    color: white;
+}
+
+.colum-links a{
+    color: black;
+    border: 2px solid black;
+    background-color: rgba(149, 149, 149, 0.561);
+    display: inline-flex;
+    padding-right: 30px ;
+    padding-left: 30px ;
+    text-align: center;
+    
+}
+
+.colum-links a:hover{
+    border: 2px solid rgb(243, 80, 80);
+}
+
+.aviso{
+    text-align: center;
+}
+
+
+.tabela-input{
+    text-align: center;
+}
+
+#alunos{
+   text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 350px;
+
+}
+
+.colum-links{
+    margin-top: 20px;
+}
+
+#sec-alunos{
+    display: inline-block;
+    
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+th, td{
+    border: solid 1px black;
+    justify-content: center;
+
+    padding: 10px;
+    text-size-adjust: 10px;
+    text-align: center;
+}
+
+.resultado{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.caixa{
+    
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.perfil{
+    display: inline-flex ;
+    
+    
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.perfil img{
+    max-width: max-content;
+}
+
+.perfil th, td{
+
+    padding: 17px;
+    padding-left: 30px;
+  
+}
+
+.perfil td{
+    width: 400px;
+}
+
+.perfil2{
+    display: block ;
+    
+    
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.perfil2 td{
+  width: 700px;
+}
+
+.perfil2 th{
+    width: 300px;
+}
+
+
+
+.col1{
+    flex: 50%;
+    
+    
+}
+
+.formu_faltas{
+    margin-top: 100px ;
+    
+    padding: 10px;
+    border: solid black 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formu_faltas input{
+    margin: 10px;
+}
+
+
+
+.formu_faltas form{
+    
+    width: 100%;
+    max-width: 100%;
+}
+.notas_t_alter{
+    
+    text-align: center;
+
+}
+
+.notas_t_alter h2{
+    
+    margin-bottom: 5px;
+
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+.altern{
+    display: flex;
+}
+
+.notas_t_alter form{
+    display: grid;
+    justify-content: center;
+    
+    margin: auto;
+    text-align: center;
+}
+.notas_t_alter input, select, button{
+    text-align: center;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 3px;
+}
+
+
+
+option{
+    text-align: center;
+}
+.title_h{
+    border-bottom: 1px solid; margin: 0px;
+}
+
+#media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.deseja_ex form, input, h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.oco table{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#msg_aceito{
+    text-align: center;
+    color: rgb(6, 215, 6);
+    background-color: rgba(0, 255, 0, 0.469);
+}
+
+
+
+.deseja_ex input{
+    width: 20%;
+}
+
+.deseja_ex h3{
+    border-bottom: 1px solid ;
+}
+
+.ultimo_blo{
+    margin-bottom: 10px;
+}
+
+#sidebarra{
+    height: 500px;
+    max-height: 100%;
+    border: solid black 1px;
+    background-color: rgb(236, 233, 233);
+}
+
+.subli{
+    border: 2px solid;
+}
+
+#sidebarra button{
+    border: 0px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#sidebarra button:hover{
+    border: 0px;
+    background-color: rgb(213, 213, 213);
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.volt button{
+    color: white;
+    background-color: rgba(59, 62, 218, 0.127);
+    padding-left: 30px;
+    border: 0px;
+    height: 50px;
+}
+.volt{
+    height: 50px;
+    background-color: rgba(14, 16, 165, 0.798);
+}
+
+#botoes_perfil{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img_grupo img{
+    border: 1px black solid;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.img_grupo img:hover{
+    border: 1px rgb(57, 199, 199) solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    width: 200px;
+    height: 300px;
+}
+
+
+.bot_sub{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ocorre input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ocorre label{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.spancaixota{
+    border: 1px solid black;
+    
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.caixa_notas{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-bottom: 100px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chack{
+    border: solid 1px black;
+    margin: 1px;
+}
+
+.ani{
+
+    padding: 30px;
+    background-color: rgba(14, 16, 165, 0.798);
+    
+}
+
+
+
+
+
+
+
+#linkzada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(14, 17, 165, 0.388); ;
+}
+
+#linkzada a{
+    color: black;
+    padding: 10px;
+    border-top: solid rgb(38, 158, 238);
+    border-top-width: 1px;
+}
+#linkzada a:hover{
+    color: blue;
+    border-top: solid rgb(38, 158, 238);
+    border-top-width: 2px;
+}
+
+
+#linkC:hover > .a-ani{
+    opacity: 0;
+    animation: link 4s ;
+}
+@keyframes link{
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+
+  }
+
+  @keyframes horin{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 100px;
+    }
+  }
+
+
+.interar{
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+
+
+#barra-pes{
+    margin: 5px;
+}
+
+
+#but_alterar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#alterar{
+  background-color: rgba(47, 255, 0, 0.324);
+  border-color: rgb(129, 223, 132);
+}
+
+#adicionar{
+    background-color: yellow;
+    border-color: rgb(194, 194, 1);
+}
+
+#alterar a{
+    color: rgb(0, 0, 0) ;
+}
+#excluir{
+    color: red;
+    border-color: red; 
+}
+#excluir a{
+    color: red;
+}
+
+#category{
+    padding: 3px;
+}
+
+#Novo_login{
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formu form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.unputers{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.teusbuttom{
+    background-color: rgba(47, 255, 0, 0.324);
+    border-color: rgb(129, 223, 132);
+    padding: 3px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#msg_err{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+#nao_en{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#n_adc{
+    text-align: center;
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+#bem_vindo h3{
+    
+    opacity: 0;
+    animation: link 4s forwards;
+    color: white;
+    text-align: center;
+    border-bottom: solid black ;
+}
+
+
